@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 89%, 76%);
+      }
+    </style>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- All Styles -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body
+    class="max-w-[1440px] bg-darkBlue text-paleBale"
+    style="
+      background-image: url(images/bg-mobile.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="mt-20 mb-20 mx-auto md:flex md:w-[1050px] md:mt-52">
+      <div class="bg-darkBlue p-12 m-7 rounded-lg rounded-tr-[8em] md:flex-1">
+        <img src="images/logo.svg" alt="Logo" class="mb-10" />
+        <div class="flex flex-wrap gap-5">
+          <div class="bg-veryDarkBlue p-3 rounded-xl">
+            <img
+              src="images/icon-document.svg"
+              alt="icon-document"
+              class="w-6 h-6 object-contain"
+            />
+          </div>
+          <div class="bg-veryDarkBlue p-3 rounded-xl">
+            <img
+              src="images/icon-folder.svg"
+              alt="icon-document"
+              class="w-6 h-6 object-contain"
+            />
+          </div>
+          <div class="bg-veryDarkBlue p-3 rounded-xl">
+            <img
+              src="images/icon-upload.svg"
+              alt="icon-document"
+              class="w-6 h-6 object-contain"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-darkBlue p-10 m-7 rounded-lg relative md:p-0 md:px-12 md:py-10 md:h-44 md:flex-auto md:self-end"
+      >
+        <h1 class="text-center text-grayishBlue mb-5 md:text-left">
+          You’ve used <span class="text-paleBale">815 GB</span> of your storage
+        </h1>
+        <div
+          class="w-full h-8 mb-3 bg-veryDarkBlue rounded-full flex items-center md:h-6"
+        >
+          <div
+            class="w-3/4 h-5 ml-1 md:h-4 bg-gradient-to-r from-gradientOne to-gradientTwo rounded-full flex justify-end items-center"
+          >
+            <div
+              class="mr-1 w-4 h-4 md:w-3 md:h-3 md:mr-1 bg-white rounded-full"
+            ></div>
+          </div>
+        </div>
+        <div
+          class="bg-white px-5 py-5 w-2/4 text-black rounded-xl text-5xl font-bold uppercase absolute flex justify-center items-center gap-3 -bottom-10 left-1/4 md:w-1/3 md:bottom-36 md:left-2/3 md:-ml-12"
+        >
+          185 <span class="text-xs md:text-base text-grayishBlue">GB Left</span>
+
+          <div class="triangle absolute top-12 right-0 hidden md:block"></div>
+        </div>
+        <div class="flex justify-between mb-10 md:mb-0">
+          <div class="">0 GB</div>
+          <div class="">1000 GB</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/numuri" target="_blank">Numuri</a>.
+    </div>
+  </body>
+</html>

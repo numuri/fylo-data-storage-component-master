@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    widht: 375px;
+  }
+}
+
+@layer components {
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 30px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+}
